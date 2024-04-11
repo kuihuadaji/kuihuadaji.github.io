@@ -1,0 +1,50 @@
+body {
+  padding-left: 11em;
+  front-family: "Novecento-Wide-Bold", "Times New Roman", Times, serif;
+  color: #6385ff;
+  background-color: #f7eaed }
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+ h1 {
+   font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ ul li {
+   background: white;
+   margin: 0.5em 0;
+   padding: 0.3em;
+   border-right: 1em solid #C3567B }
+ ul.navbar a {
+   text-decoration: none }
+ a:link {
+   color:rgba(250,117,164,100%)}
+ a:visited {
+   color: rgba(187,194,226,100%) }
+ address {
+   margin-top: 1em;
+   padding-top: 1em;
+   border-top: thin dotted }
+
+  @font-face {
+    font-family: 'Novecento-Wide-Bold'
+    src: url('./')
+  }
+  html_boxf
+  animation-name: ScrollBox; animation-duration: 30s; animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  }
+  @keyframes ScrollBox f
+  0% {
+  transform: translateY (0);
+  }
+  100% {
+  transform: translateY (-100%);
+  }
+  }
